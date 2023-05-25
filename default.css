@@ -22,3 +22,14 @@ p{
     color:rgb(255, 138, 60);
     font-style:italic;
 }
+
+#fjordpic img{
+    background-color: rgb(92, 212, 236);
+    border-style: dashed;
+    border-width: 10px;
+    border-color:black;
+    position: absolute; top: 75px; left: 310px;
+    height: 400px;
+    width: 800px;
+
+}
