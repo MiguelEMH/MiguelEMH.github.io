@@ -1,34 +1,40 @@
 body{
-background-color: lightgray;
+background-color: rgb(194, 227, 194);
 }
 
 h1{
-    color: rgb(82, 82, 255);
+    color: rgb(255, 255, 255);
     font-size: 24;
+    text-shadow: 2px 2px black;
+ 
 }
 
 a:link{
-    color:rgb(115, 255, 60);
+    color:rgb(55, 195, 0);
 }
 
 a:visited{
-    color: rgb(185, 42, 42);
+    color: rgb(13, 79, 0);
 }
 
 p{
     font-family: 'Catamaran', sans-serif;
-    text-indent: 50px;
     font-size: 16px;
-    color:rgb(255, 138, 60);
-    font-style:italic;
+    color:rgb(89, 89, 89);
+}
+
+ul{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color:rgb(89, 89, 89);
 }
 
 #fjordpic img{
     background-color: rgb(92, 212, 236);
-    border-style: dashed;
+    border-style: outset;
     border-width: 10px;
-    border-color:black;
-    position: absolute; top: 75px; left: 310px;
+    border-color:rgb(148, 148, 148);
+    position: absolute; top: 175px; left: 250px;
     height: 400px;
     width: 800px;
 
