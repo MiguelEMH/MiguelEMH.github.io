@@ -1,41 +1,40 @@
 body{
-background-color: rgb(194, 227, 194);
-}
-
-h1{
-    color: rgb(255, 255, 255);
-    font-size: 24;
-    text-shadow: 2px 2px black;
- 
-}
-
-a:link{
-    color:rgb(55, 195, 0);
-}
-
-a:visited{
-    color: rgb(13, 79, 0);
-}
-
-p{
-    font-family: 'Catamaran', sans-serif;
-    font-size: 16px;
-    color:rgb(89, 89, 89);
-}
-
-ul{
-    font-family: 'Catamaran', sans-serif;
-    font-size: 16px;
-    color:rgb(89, 89, 89);
-}
-
-#fjordpic img{
-    background-color: rgb(92, 212, 236);
-    border-style: outset;
-    border-width: 10px;
-    border-color:rgb(148, 148, 148);
-    position: absolute; top: 175px; left: 250px;
-    height: 400px;
-    width: 800px;
-
-}
+    background-color: rgb(225, 225, 225);
+    }
+    
+    h1{
+        color: rgb(255, 255, 255);
+        font-size: 24;
+        text-shadow: 2px 2px black;
+     
+    }
+    
+    a:link{
+        color:rgb(186, 186, 186);
+    }
+    
+    a:visited{
+        color: rgb(72, 72, 72);
+    }
+    
+    p{
+        font-family: 'Catamaran', sans-serif;
+        font-size: 16px;
+        color:rgb(89, 89, 89);
+    }
+    
+    ul{
+        font-family: 'Catamaran', sans-serif;
+        font-size: 16px;
+        color:rgb(89, 89, 89);
+    }
+    
+    #fjordpic img{
+        border-style: outset;
+        border-width: 10px;
+        border-color:rgb(148, 148, 148);
+        position: absolute; top: 175px; left: 250px;
+        height: 400px;
+        width: 800px;
+    
+    }
