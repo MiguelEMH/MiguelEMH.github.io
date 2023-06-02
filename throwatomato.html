@@ -19,17 +19,23 @@ tw-passage{
   text-shadow: 2px 2px black;
  
   background-image: url("https://MiguelEMH.github.io/graphics/tomatobg.png");
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
 }
-
-body{
-
-  }
+	
 
 tw-link{
-color: gray;
+color: #9c8181;
 }
+
+tw-link.visited{
+color: #9c8181;
+}
+
+tw-link:hover, .enchantment-link:hover {
+	color:#ffbfbf;
+}
+
 
 tw-sidebar{
   display: none;
@@ -45,125 +51,56 @@ left: 100px; }
 
 #text{
 text-align: center;}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Intro" tags="" position="1100,200" size="100,100">&lt;div id = &quot;text&quot;&gt;
-(b4r:&#39;solid&#39;)+(corner-radius:8)
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
 [Context &lt;strong&gt;&lt;em&gt; bold + italics test &lt;/strong&gt; &lt;/em&gt;
 [[&lt;em&gt;continue&lt;/em&gt; -&gt;Title]]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="2" name="Title" tags="" position="1100,400" size="100,100">[[Throw a tomato at the referee. -&gt;AngryRef]]</tw-passagedata><tw-passagedata pid="3" name="AngryRef" tags="" position="1100,600" size="100,100">(set: $heat to 0)
+</tw-passagedata><tw-passagedata pid="2" name="Title" tags="" position="1100,400" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
 
-context
+[[Throw a tomato at the referee. -&gt;AngryRef]]
+
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="AngryRef" tags="" position="1100,600" size="100,100">(set: $heat to 0)
+
+&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+[context
 [[this -&gt;1a]]
 [[that -&gt;0a]]
-[[those -&gt;2a]]
+[[those -&gt;2a]]]
+&lt;/div&gt;
 
 &lt;div id = &quot;ref&quot;&gt;
 &lt;img src = &quot;https://MiguelEMH.github.io/graphics/ref.jpeg&quot;&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="0a" tags="" position="900,775" size="100,100">context
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="0a" tags="" position="900,775" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+[context
 [[this -&gt;1b]]
 [[that -&gt;0b]]
-[[those -&gt;2b]]
-</tw-passagedata><tw-passagedata pid="5" name="1a" tags="" position="1100,800" size="100,100">(set: $heat to $heat + 1)
+[[those -&gt;2b]]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="1a" tags="" position="1100,800" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
 
-context
+(set: $heat to $heat + 1)
+
+[context
 [[this -&gt;2c]]
 [[that -&gt;3a]]
-[[those -&gt;1c]]</tw-passagedata><tw-passagedata pid="6" name="2a" tags="" position="1300,775" size="100,100">(set: $heat to $heat + 2)
+[[those -&gt;1c]]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="2a" tags="" position="1300,775" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
 
-context
+(set: $heat to $heat + 2)
+
+[context
 [[this -&gt;2d]]
 [[that -&gt;4a]]
-[[those -&gt;3b]]</tw-passagedata><tw-passagedata pid="7" name="0b" tags="" position="300,1000" size="100,100">context
-(link: &quot;this&quot;)[
-      (set: $heat to $heat+1)
-      (go-to: &quot;midway&quot;)
-      ]
-  
-(link: &quot;that&quot;)[
-      (set: $heat to $heat)
-      (go-to: &quot;midway&quot;)
-      ]
-
-(link: &quot;those&quot;)[
-      (set: $heat to $heat+2)
-      (go-to: &quot;midway&quot;)
-      ]</tw-passagedata><tw-passagedata pid="8" name="1b" tags="" position="500,950" size="100,100">(set: $heat to $heat + 1)
-
-context
-(link: &quot;this&quot;)[
-      (set: $heat to $heat)
-      (go-to: &quot;midway&quot;)
-      ]
-  
-(link: &quot;that&quot;)[
-      (set: $heat to $heat+2)
-      (go-to: &quot;midway&quot;)
-      ]
-
-(link: &quot;those&quot;)[
-      (set: $heat to $heat+1)
-      (go-to: &quot;midway&quot;)
-      ]</tw-passagedata><tw-passagedata pid="9" name="2b" tags="" position="900,950" size="100,100">(set: $heat to $heat + 2)
-
-context
-(link: &quot;this&quot;)[
-      (set: $heat to $heat)
-      (go-to: &quot;midway&quot;)
-      ]
-  
-(link: &quot;that&quot;)[
-      (set: $heat to $heat+1)
-      (go-to: &quot;midway&quot;)
-      ]
-
-(link: &quot;those&quot;)[
-      (set: $heat to $heat+2)
-      (go-to: &quot;midway&quot;)
-      ]</tw-passagedata><tw-passagedata pid="10" name="1c" tags="" position="700,1000" size="100,100">context
-(link: &quot;this&quot;)[
-      (set: $heat to $heat)
-      (go-to: &quot;midway&quot;)
-      ]
-  
-(link: &quot;that&quot;)[
-      (set: $heat to $heat+1)
-      (go-to: &quot;midway&quot;)
-      ]
-
-(link: &quot;those&quot;)[
-      (set: $heat to $heat+2)
-      (go-to: &quot;midway&quot;)
-      ]</tw-passagedata><tw-passagedata pid="11" name="2c" tags="" position="1100,1000" size="100,100">(set: $heat to $heat + 1)
-
-context
-(link: &quot;this&quot;)[
-      (set: $heat to $heat+1)
-      (go-to: &quot;midway&quot;)
-      ]
-  
-(link: &quot;that&quot;)[
-      (set: $heat to $heat+2)
-      (go-to: &quot;midway&quot;)
-      ]
-
-(link: &quot;those&quot;)[
-      (set: $heat to $heat)
-      (go-to: &quot;midway&quot;)
-      ]</tw-passagedata><tw-passagedata pid="12" name="2d" tags="" position="1300,950" size="100,100">context
-(link: &quot;this&quot;)[
-      (set: $heat to $heat+1)
-      (go-to: &quot;midway&quot;)
-      ]
-  
-(link: &quot;that&quot;)[
-      (set: $heat to $heat)
-      (go-to: &quot;midway&quot;)
-      ]
-
-(link: &quot;those&quot;)[
-      (set: $heat to $heat+2)
-      (go-to: &quot;midway&quot;)
-      ]</tw-passagedata><tw-passagedata pid="13" name="3b" tags="" position="1700,950" size="100,100">(set: $heat to $heat + 1)
+[[those -&gt;3b]]]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="0b" tags="" position="300,1000" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
 
 context
 (link: &quot;this&quot;)[
@@ -179,7 +116,120 @@ context
 (link: &quot;those&quot;)[
       (set: $heat to $heat+2)
       (go-to: &quot;midway&quot;)
-      ]</tw-passagedata><tw-passagedata pid="14" name="3a" tags="" position="1500,1000" size="100,100">(set: $heat to $heat + 2)
+      ]</tw-passagedata><tw-passagedata pid="8" name="1b" tags="" position="500,950" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+(set: $heat to $heat + 1)
+
+context
+(link: &quot;this&quot;)[
+      (set: $heat to $heat)
+      (go-to: &quot;midway&quot;)
+      ]
+  
+(link: &quot;that&quot;)[
+      (set: $heat to $heat+2)
+      (go-to: &quot;midway&quot;)
+      ]
+
+(link: &quot;those&quot;)[
+      (set: $heat to $heat+1)
+      (go-to: &quot;midway&quot;)
+      ]</tw-passagedata><tw-passagedata pid="9" name="2b" tags="" position="900,950" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+(set: $heat to $heat + 2)
+
+context
+(link: &quot;this&quot;)[
+      (set: $heat to $heat)
+      (go-to: &quot;midway&quot;)
+      ]
+  
+(link: &quot;that&quot;)[
+      (set: $heat to $heat+1)
+      (go-to: &quot;midway&quot;)
+      ]
+
+(link: &quot;those&quot;)[
+      (set: $heat to $heat+2)
+      (go-to: &quot;midway&quot;)
+      ]</tw-passagedata><tw-passagedata pid="10" name="1c" tags="" position="700,1000" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
+(link: &quot;this&quot;)[
+      (set: $heat to $heat)
+      (go-to: &quot;midway&quot;)
+      ]
+  
+(link: &quot;that&quot;)[
+      (set: $heat to $heat+1)
+      (go-to: &quot;midway&quot;)
+      ]
+
+(link: &quot;those&quot;)[
+      (set: $heat to $heat+2)
+      (go-to: &quot;midway&quot;)
+      ]</tw-passagedata><tw-passagedata pid="11" name="2c" tags="" position="1100,1000" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+(set: $heat to $heat + 1)
+
+context
+(link: &quot;this&quot;)[
+      (set: $heat to $heat+1)
+      (go-to: &quot;midway&quot;)
+      ]
+  
+(link: &quot;that&quot;)[
+      (set: $heat to $heat+2)
+      (go-to: &quot;midway&quot;)
+      ]
+
+(link: &quot;those&quot;)[
+      (set: $heat to $heat)
+      (go-to: &quot;midway&quot;)
+      ]</tw-passagedata><tw-passagedata pid="12" name="2d" tags="" position="1300,950" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
+(link: &quot;this&quot;)[
+      (set: $heat to $heat+1)
+      (go-to: &quot;midway&quot;)
+      ]
+  
+(link: &quot;that&quot;)[
+      (set: $heat to $heat)
+      (go-to: &quot;midway&quot;)
+      ]
+
+(link: &quot;those&quot;)[
+      (set: $heat to $heat+2)
+      (go-to: &quot;midway&quot;)
+      ]</tw-passagedata><tw-passagedata pid="13" name="3b" tags="" position="1700,950" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+(set: $heat to $heat + 1)
+
+context
+(link: &quot;this&quot;)[
+      (set: $heat to $heat+1)
+      (go-to: &quot;midway&quot;)
+      ]
+  
+(link: &quot;that&quot;)[
+      (set: $heat to $heat)
+      (go-to: &quot;midway&quot;)
+      ]
+
+(link: &quot;those&quot;)[
+      (set: $heat to $heat+2)
+      (go-to: &quot;midway&quot;)
+      ]</tw-passagedata><tw-passagedata pid="14" name="3a" tags="" position="1500,1000" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+(set: $heat to $heat + 2)
 
 context
 (link: &quot;this&quot;)[
@@ -197,7 +247,10 @@ context
       (go-to: &quot;midway&quot;)
       ]</tw-passagedata><tw-passagedata pid="15" name="4a" tags="" position="1900,1000" size="100,100">(set: $heat to $heat + 2)
 
-context
+&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+[context
 (link: &quot;this&quot;)[
       (set: $heat to $heat+1)
       (go-to: &quot;midway&quot;)
@@ -211,54 +264,118 @@ context
 (link: &quot;those&quot;)[
       (set: $heat to $heat+2)
       (go-to: &quot;midway&quot;)
-      ]</tw-passagedata><tw-passagedata pid="16" name="0" tags="" position="500,1350" size="100,100">context
-[[sigh of relief -&gt;escaped]]</tw-passagedata><tw-passagedata pid="17" name="1" tags="" position="700,1400" size="100,100">context
+      ]
+      ]
+      ]
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="0" tags="" position="500,1350" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
+[[sigh of relief -&gt;escaped]]</tw-passagedata><tw-passagedata pid="17" name="1" tags="" position="700,1400" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;heat3]]
 [[that -&gt;heat2]]
-[[those -&gt;escaped]]</tw-passagedata><tw-passagedata pid="18" name="2" tags="" position="900,1350" size="100,100">context
+[[those -&gt;escaped]]</tw-passagedata><tw-passagedata pid="18" name="2" tags="" position="900,1350" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;heat3]]
 [[that -&gt;heat4]]
-[[those-&gt;heat2]]</tw-passagedata><tw-passagedata pid="19" name="3" tags="" position="1100,1400" size="100,100">context
+[[those-&gt;heat2]]</tw-passagedata><tw-passagedata pid="19" name="3" tags="" position="1100,1400" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;heat5]]
 [[that -&gt;heat4]]
 [[those -&gt;heat3]]
-</tw-passagedata><tw-passagedata pid="20" name="4" tags="" position="1300,1350" size="100,100">context
+</tw-passagedata><tw-passagedata pid="20" name="4" tags="" position="1300,1350" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;heat5]]
 [[that -&gt;heat6]]
 [[those -&gt;heat4]]
-</tw-passagedata><tw-passagedata pid="21" name="5" tags="" position="1500,1400" size="100,100">context
+</tw-passagedata><tw-passagedata pid="21" name="5" tags="" position="1500,1400" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;heat6]]
 [[that -&gt;heat5]]
 [[those -&gt;heat7]]
-</tw-passagedata><tw-passagedata pid="22" name="6" tags="" position="1700,1350" size="100,100">context
+</tw-passagedata><tw-passagedata pid="22" name="6" tags="" position="1700,1350" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;heat6]]
 [[that -&gt;jail]]
 [[those -&gt;heat7]]
-</tw-passagedata><tw-passagedata pid="23" name="escaped" tags="" position="100,1800" size="100,100">context
-[[continue -&gt;newgame]]</tw-passagedata><tw-passagedata pid="24" name="heat2" tags="" position="300,1600" size="100,100">context
+</tw-passagedata><tw-passagedata pid="23" name="escaped" tags="" position="100,1800" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
+[[continue -&gt;newgame]]</tw-passagedata><tw-passagedata pid="24" name="heat2" tags="" position="300,1600" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;escaped]]
 [[that -&gt;neutral]]
-[[those -&gt;escaped]]</tw-passagedata><tw-passagedata pid="25" name="heat3" tags="" position="600,1700" size="100,100">context
+[[those -&gt;escaped]]</tw-passagedata><tw-passagedata pid="25" name="heat3" tags="" position="600,1700" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;escaped]]
 [[that -&gt;neutral]]
-[[those -&gt;neutral]]</tw-passagedata><tw-passagedata pid="26" name="heat4" tags="" position="900,1600" size="100,100">context
+[[those -&gt;neutral]]</tw-passagedata><tw-passagedata pid="26" name="heat4" tags="" position="900,1600" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;neutral]]
 [[that -&gt;escaped]]
-[[those -&gt;jail]]</tw-passagedata><tw-passagedata pid="27" name="neutral" tags="" position="1100,1900" size="100,100">context
-[[start a remote basketball league -&gt;neutral ending]]</tw-passagedata><tw-passagedata pid="28" name="jail" tags="" position="2100,1800" size="100,100">[[next -&gt;jail ending]]</tw-passagedata><tw-passagedata pid="29" name="heat5" tags="" position="1300,1600" size="100,100">context
+[[those -&gt;jail]]</tw-passagedata><tw-passagedata pid="27" name="neutral" tags="" position="1100,1900" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+&lt;/div&gt;
+
+context
+[[start a remote basketball league -&gt;neutral ending]]</tw-passagedata><tw-passagedata pid="28" name="jail" tags="" position="2100,1800" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+[[next -&gt;jail ending]]</tw-passagedata><tw-passagedata pid="29" name="heat5" tags="" position="1300,1600" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;neutral]]
 [[that -&gt;jail]]
-[[those -&gt;neutral]]</tw-passagedata><tw-passagedata pid="30" name="heat6" tags="" position="1600,1700" size="100,100">context
+[[those -&gt;neutral]]</tw-passagedata><tw-passagedata pid="30" name="heat6" tags="" position="1600,1700" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;jail]]
 [[that -&gt;neutral]]
 [[those -&gt;jail]]
-</tw-passagedata><tw-passagedata pid="31" name="heat7" tags="" position="1900,1600" size="100,100">context
+</tw-passagedata><tw-passagedata pid="31" name="heat7" tags="" position="1900,1600" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
 [[this -&gt;jail]]
 [[that -&gt;neutral]]
 [[those -&gt;jail]]
-</tw-passagedata><tw-passagedata pid="32" name="newgame" tags="" position="100,1200" size="100,100">context
-[[Title]]</tw-passagedata><tw-passagedata pid="33" name="neutral ending" tags="" position="1100,2100" size="100,100">bad call context
-[[Throw a tomato at the referee.-&gt;AngryRef]]</tw-passagedata><tw-passagedata pid="34" name="jail ending" tags="" position="2100,1200" size="100,100">[[try again -&gt;Intro]]</tw-passagedata><tw-passagedata pid="35" name="midway" tags="" position="1100,1200" size="100,100">hi
+</tw-passagedata><tw-passagedata pid="32" name="newgame" tags="" position="100,1200" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+context
+[[Title]]</tw-passagedata><tw-passagedata pid="33" name="neutral ending" tags="" position="1100,2100" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+bad call context
+[[Throw a tomato at the referee.-&gt;AngryRef]]</tw-passagedata><tw-passagedata pid="34" name="jail ending" tags="" position="2100,1200" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+[[try again -&gt;Intro]]</tw-passagedata><tw-passagedata pid="35" name="midway" tags="" position="1100,1200" size="100,100">&lt;div id = &quot;text&quot;&gt;
+(b4r:&#39;solid&#39;)+(background: #633c3c)+(corner-radius:8)
+
+hi
 
 (link: &quot;this&quot;)[
       (go-to: (text:($heat)))
